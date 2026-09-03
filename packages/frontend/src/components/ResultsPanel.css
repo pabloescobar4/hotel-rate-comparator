@@ -1,0 +1,83 @@
+.result-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.error-card {
+  border-left: 4px solid #ef4444;
+  background: #fef2f2;
+}
+
+.error-message {
+  color: #b91c1c;
+  margin: 0;
+  font-weight: 500;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 32px;
+  color: #6b7280;
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid #e5e7eb;
+  border-top-color: #2563eb;
+  border-radius: 50%;
+  animation: rotate 1s linear infinite;
+  margin: 0 auto 12px auto;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.best-rate-label {
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.hotel-name {
+  margin: 0 0 12px 0;
+  color: #1a1a2e;
+  font-size: 24px;
+}
+
+.price-container {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.price {
+  color: #059669;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.per-night {
+  color: #6b7280;
+  font-size: 14px;
+}
+
+.supplier-badge {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #3730a3;
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
